@@ -27,8 +27,7 @@ async function find() {
                 }
             }
         });
-    }
-    else {
+    } else {
         count--;
     }
 }
