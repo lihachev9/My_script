@@ -23,8 +23,7 @@ async function find() {
             if (elements.length !== 0) {
                 if (target.hasOwnProperty('className1stChildClick')) {
                     document.getElementsByClassName(target.className1stChildClick)[0].click();
-                }
-                else {
+                } else {
                     elements[0].click();
                 }
                 count = 5;
