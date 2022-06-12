@@ -29,8 +29,7 @@ async function find() {
                 count = 5;
             }
         });
-    }
-    else {
+    } else {
         count--;
     }
 }
